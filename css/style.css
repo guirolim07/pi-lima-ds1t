@@ -1,25 +1,66 @@
-body{
+body {
     background-color: black;
     height: 100vh;
     width: 100vw;
     font-family: "Inter", sans-serif;
 }
 
-.titulo{
+.conteudo {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
-.titulo h1{
+.titulo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.titulo p {
     color: white;
     text-align: center;
     margin-top: 150px;
     font-weight: 400;
-    font-size: 70px;
+    font-size: 96px;
     letter-spacing: 3px;
 }
 
-.titulo .logo{
-    gap: 20px;
+.logo{
+    margin-top: 150px;
+}
+
+.subtitulo p {
+    font-size: 40px;
+    font-family: "Gulzar", sans-serif;
+    color: white;
+    display: flex;
+    margin: 20px;
+}
+
+.botao {
+    height: 100px;
+    width: 413px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    border-radius: 50px;
+    font-family: "Geologica", sans-serif;
+}
+
+.botao h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: black;
+}
+
+.botao img {
+    width: 60px;
+    height: 60px;
+    display: flex;
 }
