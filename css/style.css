@@ -6,6 +6,7 @@ body {
     color: #fff;
 }
 
+/*FORMATAÇÃO PARA DESKTOP*/
 header,
 main {
     display: flex;
@@ -71,7 +72,9 @@ main {
     justify-content: center;
 }
 
-.telas {
+.carrossel {
+    align-items: center;
+    justify-content: center;
     display: flex;
     gap: 55px;
 }
@@ -115,11 +118,68 @@ footer {
     font-size: 32px;
     gap: 10px;
     justify-content: center;
-    margin: 30px;
+    padding: 30px;
+}
+
+.sites {
+    display: flex;
+    gap: 10px;
 }
 
 .instagram,
 .whatsapp {
     display: flex;
     gap: 10px;
+}
+
+/*FORMATAÇÃO PARA TABLET*/
+@media (max-width: 1024px) {
+    .subtitulo p {
+        margin: 0px;
+    }
+
+    .carrossel {
+        gap: 30px;
+    }
+
+    .seta {
+        width: 82.5px;
+        height: 71.25px;
+    }
+
+    .tela1 {
+        width: 142px;
+        height: 192px;
+        background-image: url(../img/tela1-tabl.jpg);
+    }
+
+    .tela2 {
+        width: 142px;
+        height: 192px;
+        background-image: url(../img/tela2-tabl.jpg);
+    }
+
+    .tela3 {
+        width: 142px;
+        height: 192px;
+        background-image: url(../img/tela3-tabl.jpg);
+    }
+
+    .telas {
+        width: 462px;
+        height: 329px;
+    }
+
+    .grupo p {
+        font-size: 30px;
+    }
+
+    footer p {
+        font-size: 25px;
+    }
+
+    .logos {
+        width: 25px;
+        height: 25px;
+    }
 }
