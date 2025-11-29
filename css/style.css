@@ -1,24 +1,29 @@
 body {
     background-color: #000;
     height: 100vh;
-    width: 100vw;
     font-family: "Inter", sans-serif;
     color: #fff;
 }
 
 /*FORMATAÇÃO PARA DESKTOP*/
-header,
-main {
+header {
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
 .titulo {
     display: flex;
-    justify-content: center;
     gap: 10px;
 }
 
@@ -118,6 +123,7 @@ footer {
     font-size: 32px;
     gap: 10px;
     justify-content: center;
+    align-items: center;
     padding: 30px;
 }
 
@@ -130,9 +136,10 @@ footer {
 .whatsapp {
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
-/*FORMATAÇÃO PARA TABLET*/
+/*FORMATAÇÃO PARA TABLET - iPad Mini*/
 @media (max-width: 1024px) {
     .subtitulo p {
         margin: 0px;
@@ -181,5 +188,102 @@ footer {
     .logos {
         width: 25px;
         height: 25px;
+    }
+}
+
+/*FORMATAÇÃO DO MOBILE - iPhone SE*/
+@media (max-width: 480px) {
+    .titulo {
+        margin-top: 40px;
+    }
+
+    .titulo p {
+        font-size: 36px;
+        margin-top: 0px;
+    }
+
+    .logo {
+        width: 56px;
+        height: 52px;
+        margin-top: 0px;
+    }
+
+    .subtitulo p {
+        font-size: 25px;
+    }
+
+    .botao {
+        width: 252px;
+        height: 49px;
+    }
+
+    .botao p {
+        font-size: 24px;
+    }
+
+    .comofunciona {
+        font-size: 24px;
+    }
+
+    .carrossel {
+        gap: 7px;
+    }
+
+    .seta {
+        width: 55px;
+        height: 40px;
+    }
+
+    .tela1 {
+        width: 64px;
+        height: 133px;
+        background-image: url(../img/tela1-cel.jpg);
+    }
+
+    .tela2 {
+        width: 64px;
+        height: 133px;
+        background-image: url(../img/tela2-cel.jpg);
+    }
+
+    .tela3 {
+        width: 64px;
+        height: 133px;
+        background-image: url(../img/tela3-cel.jpg);
+    }
+
+    .grupo {
+        margin-top: 20px;
+    }
+
+    .grupo p {
+        font-size: 20px;
+    }
+
+    .telas {
+        width: 223px;
+        height: 159px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+
+    .barra {
+        display: none;
+    }
+
+    .instagram,
+    .whatsapp {
+        gap: 5px;
+    }
+
+    .logos {
+        width: 15px;
+        height: 15px;
     }
 }
