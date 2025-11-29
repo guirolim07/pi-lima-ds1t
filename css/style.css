@@ -6,7 +6,8 @@ body {
     color: #fff;
 }
 
-header, main {
+header,
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,7 +70,7 @@ header, main {
 
 .telas {
     display: flex;
-    gap: 40px;
+    gap: 55px;
 }
 
 .tela1 {
@@ -91,4 +92,18 @@ header, main {
     height: 386px;
     background-size: 100%;
     background-image: url(../img/tela3-desk.jpg);
+}
+
+.grupo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.grupo p {
+    font-size: 50px;
+    margin-bottom: 10px;
 }
