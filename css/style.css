@@ -3,14 +3,14 @@ body {
     height: 100vh;
     width: 100vw;
     font-family: "Inter", sans-serif;
+    color: #fff;
 }
 
-.conteudo {
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
 }
 
 .titulo {
@@ -20,7 +20,6 @@ body {
 }
 
 .titulo p {
-    color: white;
     text-align: center;
     margin-top: 150px;
     font-weight: 400;
@@ -28,14 +27,13 @@ body {
     letter-spacing: 3px;
 }
 
-.logo{
+.logo {
     margin-top: 150px;
 }
 
 .subtitulo p {
     font-size: 40px;
     font-family: "Gulzar", sans-serif;
-    color: white;
     display: flex;
     margin: 20px;
 }
@@ -43,7 +41,7 @@ body {
 .botao {
     height: 100px;
     width: 413px;
-    background-color: white;
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,11 +54,41 @@ body {
 .botao p {
     font-size: 50px;
     font-weight: 400;
-    color: black;
+    color: #000;
 }
 
 .botao img {
     width: 60px;
-    height: 60px;
+    height: 54px;
+}
+
+.comofunciona {
+    font-size: 35px;
+    margin: 55px;
+}
+
+.telas {
     display: flex;
+    gap: 40px;
+}
+
+.tela1 {
+    width: 672px;
+    height: 394px;
+    background-size: 100%;
+    background-image: url(../img/tela1-desk.jpg);
+}
+
+.tela2 {
+    width: 656px;
+    height: 394px;
+    background-size: 100%;
+    background-image: url(../img/tela2-desk.jpg);
+}
+
+.tela3 {
+    width: 640px;
+    height: 386px;
+    background-size: 100%;
+    background-image: url(../img/tela3-desk.jpg);
 }
