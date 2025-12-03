@@ -134,10 +134,62 @@ footer {
 
 .instagram,
 .whatsapp {
-    display: flex;
-    gap: 10px;
+    display: flex;  gap: 10px;
     align-items: center;
 }
+.icone {
+    height:150px ;
+    position: absolute;
+    top: 20px;
+    left: 90px;
+}
+.icone-2{
+    height: 150px;
+    position: absolute;
+    top:20px;
+    left: 90px;
+}
+.icone-3{
+    height:150px ;
+    position: absolute;
+    top:20px;
+    left: 90px;
+
+}
+
+
+
+.traco-1 {
+    height: 2px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    top:10px ;
+}
+.traco-2 {
+    height: 2px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    top:190px ;
+}
+.traco-3 {
+    height: 2px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    top:370px ;
+}
+.traco-4 {
+    height: 2px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    top:560px ;
+}
+
+
+
 
 /*FORMATAÇÃO PARA TABLET - iPad Mini*/
 @media (max-width: 1024px) {
