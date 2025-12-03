@@ -137,12 +137,16 @@ footer {
     display: flex;  gap: 10px;
     align-items: center;
 }
+
 .icone {
     height:150px ;
     position: absolute;
     top: 20px;
     left: 90px;
 }
+
+
+
 .icone-2{
     height: 150px;
     position: absolute;
@@ -157,6 +161,26 @@ footer {
 
 }
 
+.icone-carro h1{
+    font-size: 50px;
+    transform: rotate(-90deg);
+    width: fit-content;
+    margin-top: 50px;
+}
+
+.traco-2 h1{
+    font-size: 50px;
+    transform: rotate(-90deg);
+    width: fit-content;
+    margin-top: 50px;
+}
+
+.traco-3 h1{
+    font-size: 50px;
+    transform: rotate(-90deg);
+    width: fit-content;
+    margin-top: 50px;
+}
 
 
 .traco-1 {
