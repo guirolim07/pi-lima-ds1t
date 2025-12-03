@@ -138,11 +138,37 @@ footer {
     align-items: center;
 }
 
-.icone {
+.carro1 {
     height:150px ;
     position: absolute;
-    top: 20px;
-    left: 90px;
+    top: 15px;
+    left: 250px;
+}
+
+.carro-wrapper1 {
+    position: absolute;
+    top: -70px;  /* começa fora da tela */
+    left: 100px;
+    animation: moverL1 9s ease-in-out forwards;
+}
+
+.carro1 {
+    animation: moverL1 10s ease-in-out forwards, girar1 10s ease-in-out forwards;
+    animation-delay: 0s; /* Animação começa imediatamente */
+}
+
+ @keyframes moverL1  {
+    0%   { transform: translate(0, -150px); } /* Começa fora da tela */
+    50%  { transform: translate(0, 50px); }  /* Desce reto */
+    100% { transform: translate(-520px, 50px); } /* Vai para a esquerda */
+}
+
+/* Giro do carro, agora começa reto e depois gira */
+@keyframes girar1 {
+    0%   { transform: rotate(-180deg); }  /* Começa reto */
+    100%  { transform: rotate(0deg); }  /* Desce reto, sem rotação */
+    50%  { transform: rotate(0deg); } /* Começa a girar */
+    100% { transform: rotate(0deg); } /* Termina virado para a esquerda */
 }
 
 
