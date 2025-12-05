@@ -57,6 +57,12 @@ main {
     gap: 10px;
     border-radius: 50px;
     font-family: "Geologica", sans-serif;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    transition: 5s;
 }
 
 .botao p {
@@ -171,42 +177,103 @@ footer {
     100% { transform: rotate(0deg); } /* Termina virado para a esquerda */
 }
 
-
-
-.icone-2{
-    height: 150px;
-    position: absolute;
-    top:20px;
-    left: 90px;
-}
-.icone-3{
+.carro2 {
     height:150px ;
     position: absolute;
-    top:20px;
-    left: 90px;
-
+    top: 15px;
+    left: 250px;
 }
 
-.icone-carro h1{
-    font-size: 50px;
+.carro-wrapper2 {
+    position: absolute;
+    top: -70px;  /* começa fora da tela */
+    left: 100px;
+    animation: moverL2 15s ease-in-out forwards;
+}
+
+.carro2 {
+    animation: moverL2 13s ease-in-out forwards, girar2 13s ease-in-out forwards;
+    animation-delay: 0s; /* Animação começa imediatamente */
+}
+
+ @keyframes moverL2  {
+    0%   { transform: translate(0, -150px); } /* Começa fora da tela */
+    50%  { transform: translate(0, 250px); }  /* Desce reto */
+    100% { transform: translate(-520px, 250px); } /* Vai para a esquerda */
+}
+
+/* Giro do carro, agora começa reto e depois gira */
+@keyframes girar2 {
+    0%   { transform: rotate(-180deg); }  /* Começa reto */
+    100%  { transform: rotate(-190deg); }  /* Desce reto, sem rotação */
+    50%  { transform: rotate(-80deg); } /* Começa a girar */
+    100% { transform: rotate(0deg); } /* Termina virado para a esquerda */
+}
+
+
+
+.carro3 {
+    height:150px ;
+    position: absolute;
+    top: 15px;
+    left: 250px;
+}
+/* Wrapper: controla apenas o movimento em L */
+.carro-wrapper3 {
+    position: absolute;
+    top: -850px;   /* começa fora da tela */
+    left: 250px;
+    animation: moverL3 15s ease-in-out forwards;
+}
+
+/* Imagem: controla apenas a rotação */
+.carro3 {
+    height: 150px;
+    animation: girar3 15s ease-in-out forwards;
+}
+
+/* Movimento em L */
+@keyframes moverL3 {
+    0%   { transform: translate(0, -1200px); }   /* Começa fora da tela */
+    50%  { transform: translate(0, 1250px); }    /* Desce */
+    100% { transform: translate(-650px, 1200px); } /* Vai para a esquerda */
+}
+
+/* Giro progressivo sem sobrescrever o movimento */
+@keyframes girar3 {
+    0%   { transform: rotate(0deg); }  /* Começa apontado para baixo */
+    0%  { transform: rotate(-180deg); }  /* Não gira enquanto desce */
+    0%  { transform: rotate(-90deg); }   /* Começa o giro para esquerda */
+    100% { transform: rotate(0deg); }     /* Termina apontado para a esquerda */
+}
+
+.Animaçao h1{
+    color: white;
     transform: rotate(-90deg);
-    width: fit-content;
-    margin-top: 50px;
+    margin-left: 30px;
+    margin-top: 300px;
 }
 
-.traco-2 h1{
-    font-size: 50px;
+.numerovaga2 h1{
+    color: white;
     transform: rotate(-90deg);
-    width: fit-content;
-    margin-top: 50px;
+    margin-left: 30px;
+    margin-top: 150px;
 }
 
-.traco-3 h1{
-    font-size: 50px;
+.numerovaga3 h1{
+    color: white;
     transform: rotate(-90deg);
-    width: fit-content;
-    margin-top: 50px;
+    margin-left: 30px;
+    margin-top: -410px;
 }
+
+
+h1 {
+        transform: rotate(180deg);
+        transform-origin: left top; /* muda o centro da rotação */
+      }
+      
 
 
 .traco-1 {
