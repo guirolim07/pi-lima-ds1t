@@ -28,21 +28,22 @@ main {
 
 .titulo p {
     text-align: center;
-    margin-top: 150px;
+    margin-top: -190px;
     font-weight: 400;
-    font-size: 96px;
+    font-size: 128px;
     letter-spacing: 3px;
 }
 
 .logo {
-    margin-top: 150px;
+    margin-top: -200px;
 }
 
 .subtitulo p {
-    font-size: 40px;
+    
+    font-size: 50px;
     font-family: "Gulzar", sans-serif;
     display: flex;
-    margin: 17px;
+    margin: 5px;
 }
 
 .botao {
@@ -87,6 +88,71 @@ main {
     justify-content: center;
     display: flex;
     gap: 55px;
+}
+
+.retangulo-branco{
+    background-color: white;
+    width: 100vw;
+    height: 1100px;
+    margin-top: 500px;
+}
+
+.retangulo-branco p{
+    color: #000;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 150px;
+}
+
+.descricao p{
+    font-size: 55px;
+    margin-left: 35px;
+    text-align: justify;
+}
+
+.foto-vidal img{
+    width: 230px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+    border-radius: 300px;
+}
+
+.foto-vidal p{
+    font-size: 40px;
+    margin-left: 190px;
+    margin-top: 5px;
+}
+
+.foto-rolim img{
+    width: 230px;
+    height: 230px;
+    display: flex;
+    border-radius: 300px;
+    margin-top: -280px;
+    margin-left: 1150px;
+}
+
+.foto-rolim p{
+    font-size: 40px;
+    margin-left: 1120px;
+    margin-top: -5px;
+}
+
+.foto-jefferson img{
+    width: 230px;
+    height: 230px;
+    display: flex;
+    border-radius: 300px;
+    margin-top: -280px;
+    margin-left: 2140px;
+}
+
+.foto-jefferson p{
+    font-size: 40px;
+    margin-left: 2120px;
+    margin-top: -5px;
 }
 
 .tela1 {
