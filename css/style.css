@@ -178,16 +178,20 @@ main {
 
 .grupo {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    align-items:center;
     gap: 50px;
-    margin-top: 110px;
+    margin-top: 300px;
+    margin-left: 200px;
 }
 
 .grupo p {
     font-size: 50px;
     margin-bottom: 10px;
+    margin-left: -200px;
 }
+    
 
 footer {
     display: flex;
@@ -196,6 +200,10 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 30px;
+    background-color:  gray;
+    margin-top: 110px;
+    width: 2550px;
+    height: 300px;
 }
 
 .sites {
@@ -207,6 +215,7 @@ footer {
 .whatsapp {
     display: flex;  gap: 10px;
     align-items: center;
+    color: black;
 }
 
 .carro1 {
@@ -368,6 +377,50 @@ h1 {
     position: absolute;
     top:560px ;
 }
+.parte1 img{
+    width: 500px;
+    display: flex;
+    margin-top: 20px;
+    margin-left:10px;
+}
+.parte2 img{
+    width: 500px;
+    display: flex;
+    margin-left: 150px;
+}
+.parte3 img{
+    width: 500px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 220px;
+}
+.grupo .main{
+    font-size: 50px;
+    position: absolute;
+    left:1000px ;
+    top: 2790px;
+}
+.grupo .start{
+    margin-left:-90px ;
+}
+
+.grupo .mid{
+    margin-left: 130px;
+}
+
+.grupo .last{
+    margin-left: 10px;
+}
+
+/* .retangulo{ 
+    width: 1000px;
+    height: 450px;
+    background-color: gray;
+    z-index: 1;
+ */
+
+
+
 
 /*FORMATAÇÃO PARA TABLET - iPad Mini*/
 @media (max-width: 1024px) {
