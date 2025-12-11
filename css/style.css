@@ -3,6 +3,8 @@ body {
     height: 100vh;
     font-family: "Inter", sans-serif;
     color: #fff;
+    align-items: center;
+    justify-content: center;
 }
 
 /*FORMATAÇÃO PARA DESKTOP*/
@@ -115,13 +117,13 @@ main {
     width: 230px;
     display: flex;
     margin-top: 100px;
-    margin-left: 200px;
+    margin-left: 400px;
     border-radius: 300px;
 }
 
 .foto-vidal p{
     font-size: 40px;
-    margin-left: 190px;
+    margin-left: 390px;
     margin-top: 5px;
 }
 
@@ -131,12 +133,12 @@ main {
     display: flex;
     border-radius: 300px;
     margin-top: -280px;
-    margin-left: 1150px;
+    margin-left: 1800px;
 }
 
 .foto-rolim p{
     font-size: 40px;
-    margin-left: 1120px;
+    margin-left: 1770px;
     margin-top: -5px;
 }
 
@@ -146,12 +148,12 @@ main {
     display: flex;
     border-radius: 300px;
     margin-top: -280px;
-    margin-left: 2140px;
+    margin-left: 3240px;
 }
 
 .foto-jefferson p{
     font-size: 40px;
-    margin-left: 2120px;
+    margin-left: 3210px;
     margin-top: -5px;
 }
 
@@ -189,21 +191,16 @@ main {
 .grupo p {
     font-size: 50px;
     margin-bottom: 10px;
-    margin-left: -200px;
+    margin-left: 330px;
 }
     
-
 footer {
     display: flex;
+    flex-direction: column;
     font-size: 32px;
-    gap: 10px;
     justify-content: center;
     align-items: center;
-    padding: 30px;
-    background-color:  gray;
-    margin-top: 110px;
-    width: 2550px;
-    height: 300px;
+    background-color:  rgb(255, 255, 255);
 }
 
 .sites {
@@ -211,12 +208,6 @@ footer {
     gap: 10px;
 }
 
-.instagram,
-.whatsapp {
-    display: flex;  gap: 10px;
-    align-items: center;
-    color: black;
-}
 
 .carro1 {
     height:150px ;
@@ -377,47 +368,127 @@ h1 {
     position: absolute;
     top:560px ;
 }
-.parte1 img{
-    width: 500px;
+.telas {
     display: flex;
-    margin-top: 20px;
-    margin-left:10px;
+    gap: 30px;
 }
-.parte2 img{
-    width: 500px;
+.parte1, .parte2, .parte3 {
     display: flex;
-    margin-left: 150px;
+    flex-direction: column;
 }
-.parte3 img{
-    width: 500px;
+.grupo {
     display: flex;
-    margin-top: 20px;
-    margin-left: 220px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.grupo .main{
+.retangulo h2{
+    font-size: 70px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.sites h2 {
+    width: 100px;
+    display: flex;
+    color: black;
+}
+.retangulo {
+    display: flex;
+}
+.caixa {
+    display: flex;
+    align-items: center;
+}
+.foto-vidal2, .foto-guilherme2, .foto-jefferson2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+}
+.foto-vidal2 img{
+    width: 230px;
+    display: flex;
+    border-radius: 300px;
+} 
+.foto-guilherme2 img{
+    width: 230px;
+    height: 230px;
+    border-radius: 300px;
+}
+.foto-jefferson2 img{
+    width: 230px;
+    height: 230px;
+    border-radius: 300px;
+}
+
+
+
+
+
+
+/*.linkedinv a{
+    color: #000;
     font-size: 50px;
+    display: flex;
+    margin-left: 20px;
+    margin-top:350px ;
+}
+.linkedinv img{
+    width: 100px;
+    display: flex;
+    margin-left:-200px;
+    margin-top:-60px ;
+}
+.guilhermer img{
+    width: 230px;
+    height: 230px;
     position: absolute;
-    left:1000px ;
-    top: 2790px;
+    border-radius: 300px;
+    top: 3700px;
+    left: 1800px;
+
+} 
+
+.linkedinr a{
+    color: #000;
+    font-size: 50px;
+    display: flex;
+    margin-left: 1000px;
+    margin-top:350px ;
 }
-.grupo .start{
-    margin-left:-90px ;
+.linkedinr img{
+    width: 100px;
+    display: flex;
+    margin-left:-1500px;
+    margin-top:-60px ;
 }
 
-.grupo .mid{
-    margin-left: 130px;
-}
+.jeffersonv img{
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    border-radius: 300px;
+    top: 3700px;
+    left: 1800px;
 
-.grupo .last{
-    margin-left: 10px;
-}
+} 
 
-/* .retangulo{ 
-    width: 1000px;
-    height: 450px;
-    background-color: gray;
-    z-index: 1;
- */
+/* .linkedinj a{
+    color: #000;
+    font-size: 50px;
+    display: flex;
+    margin-left: 1500px;
+    margin-top:350px ;
+} */
+.linkedinj img{
+    width: 100px;
+    display: flex;
+    margin-left:-10px;
+    margin-top:-60px ;
+} */
+
+
 
 
 
