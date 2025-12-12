@@ -1,129 +1,132 @@
 body {
-background-color: #000;
-height: 100vh;
-font-family: "Inter", sans-serif;
-color: #fff;
-align-items: center;
-justify-content: center;
+    background-color: #000;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
 }
 
 /*FORMATAÇÃO PARA DESKTOP*/
+
+    
+
 header {
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 main {
-display: flex;
-flex-grow: 1;
-flex-direction: column;
-align-items: center;
-text-align: center;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .titulo {
-display: flex;
-gap: 10px;
+    display: flex;
+    gap: 10px;
 }
 
 .titulo p {
-text-align: center;
-margin-top: -190px;
-font-weight: 400;
-font-size: 128px;
-letter-spacing: 3px;
+    text-align: center;
+    margin-top: -190px;
+    font-weight: 400;
+    font-size: 128px;
+    letter-spacing: 3px;
 }
 
 .logo {
-margin-top: -200px;
+    margin-top: -200px;
 }
 
 .subtitulo p {
-font-size: 50px;
-font-family: "Gulzar", sans-serif;
-display: flex;
-margin: 5px;
+    font-size: 50px;
+    font-family: "Gulzar", sans-serif;
+    display: flex;
+    margin: 5px;
 }
 
 .botao {
-background: #ffffff;   
-color: white;          
-border-radius: 50px;
-font-size: 18px;
-cursor: pointer;
-transition: transform 0.25s ease, box-shadow 0.25s ease;
-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
-width: 450px;
-height: 90px;
+    background: #ffffff;
+    color: white;
+    border-radius: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    width: 450px;
+    height: 90px;
 
 }
 
-.botao:hover{
-transform: translateY(-6px);
-box-shadow: 0 12px 22px rgba(0, 0, 0, 0.30);
+.botao:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 22px rgba(0, 0, 0, 0.30);
 }
 
-.botao:active{
-transform: translateY(-2px);
-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+.botao:active {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
 }
 
 
 .botao p {
-font-size: 50px;
-font-weight: 400;
-color: #000;
-margin-top: 20px;
-font-family: "geologica", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 20px;
+    font-family: "geologica", sans-serif;
 }
 
 .nuvem {
-justify-content: end;
-width: 75px;
-height: 40.5px;
+    justify-content: end;
+    width: 75px;
+    height: 40.5px;
 }
 
 .comofunciona {
-font-size: 35px;
-margin: 65px 0px 20px 0px;
-align-items: center;
-justify-content: center;
+    font-size: 35px;
+    margin: 65px 0px 20px 0px;
+    align-items: center;
+    justify-content: center;
 }
 
 .carrossel {
-align-items: center;
-justify-content: center;
-display: flex;
-gap: 55px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 55px;
 }
 
-.retangulo-branco{
-background-color: white;
-width: 100vw;
-height: 1100px;
-margin-top: 500px;
+.retangulo-branco {
+    background-color: white;
+    width: 100vw;
+    height: 1100px;
+    margin-top: 500px;
 }
 
-.retangulo-branco p{
-color: #000;
-display: flex;
-margin-top: 30px;
-margin-left: 30px;
-font-size: 150px;
-font-family: "Gulzar", sans-serif;
+.retangulo-branco p {
+    color: #000;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 150px;
+    font-family: "Gulzar", sans-serif;
 }
 
-.descricao p{
-font-size: 45px;
-margin-left: 35px;
-text-align: justify;
-font-family: "inter", sans-serif;
-margin-top: -30px;
+.descricao p {
+    font-size: 45px;
+    margin-left: 35px;
+    text-align: justify;
+    font-family: "inter", sans-serif;
+    margin-top: -30px;
 }
 
-.foto-vidal img{
+.foto-vidal img {
     width: 230px;
     display: flex;
     margin-top: 100px;
@@ -131,13 +134,13 @@ margin-top: -30px;
     border-radius: 300px;
 }
 
-.foto-vidal p{
+.foto-vidal p {
     font-size: 40px;
     margin-left: 490px;
     margin-top: 5px;
 }
 
-.foto-rolim img{
+.foto-rolim img {
     width: 230px;
     height: 230px;
     display: flex;
@@ -146,13 +149,13 @@ margin-top: -30px;
     margin-left: 1800px;
 }
 
-.foto-rolim p{
+.foto-rolim p {
     font-size: 40px;
     margin-left: 1780px;
     margin-top: -5px;
 }
 
-.foto-jefferson img{
+.foto-jefferson img {
     width: 230px;
     height: 230px;
     display: flex;
@@ -161,7 +164,7 @@ margin-top: -30px;
     margin-left: 3080px;
 }
 
-.foto-jefferson p{
+.foto-jefferson p {
     font-size: 40px;
     margin-left: 3055px;
     margin-top: -5px;
@@ -192,7 +195,7 @@ margin-top: -30px;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    align-items:center;
+    align-items: center;
     gap: 50px;
     margin-top: 300px;
     margin-left: 200px;
@@ -208,36 +211,36 @@ margin-top: -30px;
     margin-top: 90px;
 }
 
-.container{
+.container {
     display: flex;
     gap: 450px;
     margin-top: 300px;
     margin-bottom: 300px;
 }
 
-.Visualize{
+.Visualize {
     font-size: 65px;
     text-align: justify;
 }
 
-.Registre{
+.Registre {
     font-size: 65px;
     text-align: justify;
 }
 
-.Saiba{
+.Saiba {
     font-size: 63px;
     text-align: justify;
 }
 
-    
+
 footer {
     display: flex;
     flex-direction: column;
     font-size: 32px;
     justify-content: center;
     align-items: center;
-    background-color:  rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
 }
 
 .sites {
@@ -247,7 +250,7 @@ footer {
 
 
 .carro1 {
-    height:150px ;
+    height: 150px;
     position: absolute;
     top: 15px;
     left: 250px;
@@ -255,32 +258,62 @@ footer {
 
 .carro-wrapper1 {
     position: absolute;
-    top: -70px;  /* começa fora da tela */
+    top: -70px;
+    /* começa fora da tela */
     left: 100px;
     animation: moverL1 9s ease-in-out forwards;
 }
 
 .carro1 {
     animation: moverL1 10s ease-in-out forwards, girar1 10s ease-in-out forwards;
-    animation-delay: 0s; /* Animação começa imediatamente */
+    animation-delay: 0s;
+    /* Animação começa imediatamente */
 }
 
- @keyframes moverL1  {
-    0%   { transform: translate(0, -150px); } /* Começa fora da tela */
-    50%  { transform: translate(0, 50px); }  /* Desce reto */
-    100% { transform: translate(-520px, 50px); } /* Vai para a esquerda */
+@keyframes moverL1 {
+    0% {
+        transform: translate(0, -150px);
+    }
+
+    /* Começa fora da tela */
+    50% {
+        transform: translate(0, 50px);
+    }
+
+    /* Desce reto */
+    100% {
+        transform: translate(-520px, 50px);
+    }
+
+    /* Vai para a esquerda */
 }
 
 /* Giro do carro, agora começa reto e depois gira */
 @keyframes girar1 {
-    0%   { transform: rotate(-180deg); }  /* Começa reto */
-    100%  { transform: rotate(0deg); }  /* Desce reto, sem rotação */
-    50%  { transform: rotate(0deg); } /* Começa a girar */
-    100% { transform: rotate(0deg); } /* Termina virado para a esquerda */
+    0% {
+        transform: rotate(-180deg);
+    }
+
+    /* Começa reto */
+    100% {
+        transform: rotate(0deg);
+    }
+
+    /* Desce reto, sem rotação */
+    50% {
+        transform: rotate(0deg);
+    }
+
+    /* Começa a girar */
+    100% {
+        transform: rotate(0deg);
+    }
+
+    /* Termina virado para a esquerda */
 }
 
 .carro2 {
-    height:150px ;
+    height: 150px;
     position: absolute;
     top: 15px;
     left: 250px;
@@ -288,40 +321,72 @@ footer {
 
 .carro-wrapper2 {
     position: absolute;
-    top: -70px;  /* começa fora da tela */
+    top: -70px;
+    /* começa fora da tela */
     left: 100px;
     animation: moverL2 15s ease-in-out forwards;
 }
 
 .carro2 {
     animation: moverL2 13s ease-in-out forwards, girar2 13s ease-in-out forwards;
-    animation-delay: 0s; /* Animação começa imediatamente */
+    animation-delay: 0s;
+    /* Animação começa imediatamente */
 }
 
- @keyframes moverL2  {
-    0%   { transform: translate(0, -150px); } /* Começa fora da tela */
-    50%  { transform: translate(0, 250px); }  /* Desce reto */
-    100% { transform: translate(-520px, 250px); } /* Vai para a esquerda */
+@keyframes moverL2 {
+    0% {
+        transform: translate(0, -150px);
+    }
+
+    /* Começa fora da tela */
+    50% {
+        transform: translate(0, 250px);
+    }
+
+    /* Desce reto */
+    100% {
+        transform: translate(-520px, 250px);
+    }
+
+    /* Vai para a esquerda */
 }
 
 /* Giro do carro, agora começa reto e depois gira */
 @keyframes girar2 {
-    0%   { transform: rotate(-180deg); }  /* Começa reto */
-    100%  { transform: rotate(-190deg); }  /* Desce reto, sem rotação */
-    50%  { transform: rotate(-80deg); } /* Começa a girar */
-    100% { transform: rotate(0deg); } /* Termina virado para a esquerda */
+    0% {
+        transform: rotate(-180deg);
+    }
+
+    /* Começa reto */
+    100% {
+        transform: rotate(-190deg);
+    }
+
+    /* Desce reto, sem rotação */
+    50% {
+        transform: rotate(-80deg);
+    }
+
+    /* Começa a girar */
+    100% {
+        transform: rotate(0deg);
+    }
+
+    /* Termina virado para a esquerda */
 }
 
 .carro3 {
-    height:150px ;
+    height: 150px;
     position: absolute;
     top: 15px;
     left: 250px;
 }
+
 /* Wrapper: controla apenas o movimento em L */
 .carro-wrapper3 {
     position: absolute;
-    top: -850px;   /* começa fora da tela */
+    top: -850px;
+    /* começa fora da tela */
     left: 250px;
     animation: moverL3 15s ease-in-out forwards;
 }
@@ -334,34 +399,62 @@ footer {
 
 /* Movimento em L */
 @keyframes moverL3 {
-    0%   { transform: translate(0, -1200px); }   /* Começa fora da tela */
-    50%  { transform: translate(0, 1250px); }    /* Desce */
-    100% { transform: translate(-650px, 1200px); } /* Vai para a esquerda */
+    0% {
+        transform: translate(0, -1200px);
+    }
+
+    /* Começa fora da tela */
+    50% {
+        transform: translate(0, 1250px);
+    }
+
+    /* Desce */
+    100% {
+        transform: translate(-650px, 1200px);
+    }
+
+    /* Vai para a esquerda */
 }
 
 /* Giro progressivo sem sobrescrever o movimento */
 @keyframes girar3 {
-    0%   { transform: rotate(0deg); }  /* Começa apontado para baixo */
-    0%  { transform: rotate(-180deg); }  /* Não gira enquanto desce */
-    0%  { transform: rotate(-90deg); }   /* Começa o giro para esquerda */
-    100% { transform: rotate(0deg); }     /* Termina apontado para a esquerda */
+    0% {
+        transform: rotate(0deg);
+    }
+
+    /* Começa apontado para baixo */
+    0% {
+        transform: rotate(-180deg);
+    }
+
+    /* Não gira enquanto desce */
+    0% {
+        transform: rotate(-90deg);
+    }
+
+    /* Começa o giro para esquerda */
+    100% {
+        transform: rotate(0deg);
+    }
+
+    /* Termina apontado para a esquerda */
 }
 
-.animacao h1{
+.animacao h1 {
     color: white;
     transform: rotate(-90deg);
     margin-left: 30px;
     margin-top: 300px;
 }
 
-.numerovaga2 h1{
+.numerovaga2 h1 {
     color: white;
     transform: rotate(-90deg);
     margin-left: 30px;
     margin-top: 150px;
 }
 
-.numerovaga3 h1{
+.numerovaga3 h1 {
     color: white;
     transform: rotate(-90deg);
     margin-left: 30px;
@@ -371,7 +464,8 @@ footer {
 
 h1 {
     transform: rotate(180deg);
-    transform-origin: left top; /* muda o centro da rotação */
+    transform-origin: left top;
+    /* muda o centro da rotação */
 }
 
 .traco-1 {
@@ -379,7 +473,7 @@ h1 {
     width: 350px;
     background-color: white;
     position: absolute;
-    top:10px ;
+    top: 10px;
 }
 
 .traco-2 {
@@ -387,7 +481,7 @@ h1 {
     width: 350px;
     background-color: white;
     position: absolute;
-    top:190px ;
+    top: 190px;
 }
 
 .traco-3 {
@@ -395,7 +489,7 @@ h1 {
     width: 350px;
     background-color: white;
     position: absolute;
-    top:370px ;
+    top: 370px;
 }
 
 .traco-4 {
@@ -403,23 +497,29 @@ h1 {
     width: 350px;
     background-color: white;
     position: absolute;
-    top:560px ;
+    top: 560px;
 }
+
 .telas {
     display: flex;
     gap: 30px;
 }
-.parte1, .parte2, .parte3 {
+
+.parte1,
+.parte2,
+.parte3 {
     display: flex;
     flex-direction: column;
 }
+
 .grupo {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.retangulo h2{
+
+.retangulo h2 {
     font-size: 70px;
     color: black;
     display: flex;
@@ -427,14 +527,17 @@ h1 {
     font-family: "inter", sans-serif;
     font-weight: 500;
 }
+
 .sites h2 {
     width: 100px;
     display: flex;
     color: black;
 }
+
 .retangulo {
     display: flex;
 }
+
 .FaleConosco {
     display: flex;
     align-items: center;
@@ -443,280 +546,753 @@ h1 {
     margin-bottom: 150px;
 }
 
-.foto-vidal2, .foto-guilherme2, .foto-jefferson2 {
+.foto-vidal2,
+.foto-guilherme2,
+.foto-jefferson2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #000;
 }
 
-.foto-vidal2 img{
+.foto-vidal2 img {
     width: 230px;
     display: flex;
     border-radius: 300px;
-} 
+}
 
-.LinkedinVidal img{
+.LinkedinVidal img {
     width: 75px;
     height: 60px;
     transform: translate(-120px, -50px);
 }
 
-.foto-guilherme2 img{
+.foto-guilherme2 img {
     width: 230px;
     height: 230px;
     border-radius: 300px;
 }
 
-.LinkedinRolim img{
+.LinkedinRolim img {
     width: 75px;
     height: 60px;
     transform: translate(-120px, -50px);
 }
 
-.foto-jefferson2 img{
+.foto-jefferson2 img {
     width: 230px;
     height: 230px;
     border-radius: 300px;
 }
 
-.LinkedinJeff img{
-width: 75px;
-height: 60px;
-transform: translate(-170px, -50px);
+.LinkedinJeff img {
+    width: 75px;
+    height: 60px;
+    transform: translate(-170px, -50px);
 }
 
-.MarcaRegistrada{
-color: #000;
-font-size: 80px;
+.MarcaRegistrada {
+    color: #000;
+    font-size: 80px;
 }
 
-.linkedinj img{
-width: 100px;
-display: flex;
-margin-left:-10px;
-margin-top:-60px ;
-} 
+.linkedinj img {
+    width: 100px;
+    display: flex;
+    margin-left: -10px;
+    margin-top: -60px;
+}
+
+.NossosContatos {
+    display: flex;
+    gap: 855px;
+    margin-top: -100px;
+}
+
 
 
 
 /*FORMATAÇÃO PARA TABLET - iPad Mini*/
 @media (max-width: 1024px) {
-    .animacao {
+    body {
+        background-color: #000;
+        height: 100vh;
+        width: 100vw;
+        font-family: "Inter", sans-serif;
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .animacao{
         display: none;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    main {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .titulo {
+        display: flex;
+        gap: 10px;
     }
 
     .titulo p {
-        margin-top: 70px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 85px;
+        letter-spacing: 3px;
+        margin-top: 50px;
     }
 
     .logo {
-        margin-top: 70px;
+        width: 100px;
+        height: 100px;
+        margin-top: 55px;
     }
 
     .subtitulo p {
-        margin: 0px;
+        font-size: 35px;
+        font-family: "Gulzar", sans-serif;
+        display: flex;
+        text-align: center;
+        margin-top: 60px;
+
     }
 
-    .carrossel {
-        gap: 30px;
+    .botao {
+        background: #ffffff;
+        color: white;
+        border-radius: 50px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+        width: 370px;
+        height: 70px;
     }
 
-    .seta {
-        width: 82.5px;
-        height: 71.25px;
+    .botao:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 12px 22px rgba(0, 0, 0, 0.30);
+    }
+
+    .botao:active {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    }
+
+
+    .botao p {
+        font-size: 35px;
+        font-weight: 400;
+        color: #000;
+        margin-top: 5px;
+        font-family: "geologica", sans-serif;
+        margin: 10px 0px 30px 0px;
+    }
+
+    .nuvem {
+        width: 60px;
+        height: 40.5px;
+    }
+
+    .comofunciona {
+        font-size: 25px;
+        margin: 30px 0px 20px 0px;
+        align-items: center;
+        justify-content: center;
     }
 
     .tela1 {
-        width: 142px;
-        height: 192px;
+        width: 15vw;
+        height: 15vh;
+        background-size: 100%;
         background-image: url(../img/tela1-tabl.jpg);
     }
-
+    
     .tela2 {
-        width: 142px;
-        height: 192px;
+        width: 15vw;
+        height: 15vh;
+        background-size: 100%;
         background-image: url(../img/tela2-tabl.jpg);
     }
-
+    
     .tela3 {
-        width: 142px;
-        height: 192px;
+        width: 15vw;
+        height: 15vh;
+        background-size: 100%;
         background-image: url(../img/tela3-tabl.jpg);
     }
 
-    .telas {
-        width: 462px;
-        height: 329px;
+    .carrossel {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 55px;
     }
 
-    .grupo p {
-        font-size: 30px;
+    
+
+    .retangulo-branco {
+        background-color: white;
+        width: 100vw;
+        height: 800px;
+        margin-top: 500px;
     }
 
-    footer p {
+    .retangulo-branco p {
+        color: #000;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 30px;
+        font-size: 40px;
+        font-family: "Gulzar", sans-serif;
+    }
+
+    .descricao p {
+        font-size: 20px;
+        margin-right: 20px;
+        hyphens: auto;
+        font-family: "inter", sans-serif;
+        margin-top: -30px;
+    }
+
+    .foto-vidal img {
+        width: 180px;
+        margin-left: 40px;
+        margin-top: 140px;
+        border-radius: 300px;
+    }
+
+    .foto-vidal p {
         font-size: 25px;
+        margin-left: 60px;
+        margin-top: -5px;
     }
 
-    .logos {
-        width: 25px;
-        height: 25px;
+    .foto-rolim img {
+        width: 170px;
+        height: 170px;
+        display: flex;
+        border-radius: 300px;
+        margin-top: -235px;
+        margin-left: 310px;
+    }
+
+    .foto-rolim p {
+        font-size: 25px;
+        margin-left: 310px;
+        margin-top: -5px;
+    }
+
+    .foto-jefferson img {
+        width: 170px;
+        height: 170px;
+        display: flex;
+        border-radius: 300px;
+        margin-top: -230px;
+        margin-left: 560px;
+    }
+    
+    .foto-jefferson p {
+        font-size: 25px;
+        margin-left: 565px;
+        margin-top: -8px;
+    }
+
+    .Gerencie {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    
+    .container {
+        display: flex;
+        gap: 30px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 15px;
+    }
+    
+    .Visualize p {
+        font-size: 15px;
+        hyphens: auto;
+        transform: translate(0px, -40px);
+    }
+
+    .Visualize img{
+        width: 200px;
+        height: 160px;
+        transform: translate(0px,-12px);  
+    }
+    
+    .Registre p{
+        font-size: 15px;
+        text-align: justify;
+        hyphens: auto;
+        transform: translate(0px, -40px);
+    }
+
+    .Registre img{
+        width: 200px;
+        height: 160px;
+        margin-top: -12px;
+    }
+    
+    .Saiba p{
+        font-size: 15px;
+        hyphens: auto;
+        transform: translate(0px, -40px);
+    }
+
+    .Saiba img{
+        width: 200px;
+        height: 160px;
+        margin-top: -10px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .FaleConosco {
+        display: flex;
+        align-items: center;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        gap: 2px;
+    }
+    
+    .foto-vidal2 img {
+        width: 200px;
+        display: flex;
+        border-radius: 300px;
+    }
+    
+    .LinkedinVidal img {
+        width: 40px;
+        height: 30px;
+        transform: translate(-75px,-28px);
+    }
+    
+    .foto-guilherme2 img {
+        width: 190px;
+        height: 190px;
+        border-radius: 300px;
+    }
+    
+    .LinkedinRolim img {
+        width: 40px;
+        height: 30px;
+        transform: translate(-75px,-28px);
+    }
+    
+    .foto-jefferson2 img {
+        width: 190px;
+        height: 190px;
+        border-radius: 300px;
+    }
+    
+    .LinkedinJeff img {
+        width: 35px;
+        height: 35px;
+        transform: translate(-110px,-30px);
+    }
+    
+    .MarcaRegistrada {
+        color: #000;
+        font-size: 40px;
+    }
+    
+    .foto-vidal2 p{
+        font-size: 20px;
+    }
+
+    .foto-guilherme2 p{
+        font-size: 20px;
+    }
+
+    .foto-jefferson2 p {
+        font-size: 20px;
+    }
+    
+    .retangulo h2 {
+        font-size: 50px;
+        color: black;
+        display: flex;
+        justify-content: center;
+        font-family: "inter", sans-serif;
+        font-weight: 500;
+    }
+
+    .retangulo img{
+        width: 55px;
+        height: 55px;
+        margin-top: 3px;
+    }  
+
+    .NossosContatos {
+        display: flex;
+        gap: 75px;
     }
 }
 
 /*FORMATAÇÃO DO MOBILE - iPhone SE*/
 @media (max-width: 667px) {
 
-body {
-background-color: #000;
-height: 100vh;
-width: 100vw;
-font-family: "Inter", sans-serif;
-color: #fff;
-align-items: center;
-justify-content: center;
-}
+    body {
+        background-color: #000;
+        height: 100vh;
+        width: 100vw;
+        font-family: "Inter", sans-serif;
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+    }
 
-header {
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
-}
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
-main {
-display: flex;
-flex-grow: 1;
-flex-direction: column;
-align-items: center;
-text-align: center;
-}
+    main {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
-.titulo {
-display: flex;
-gap: 10px;
-}
+    .titulo {
+        display: flex;
+        gap: 10px;
+    }
 
-.titulo p {
-text-align: center;
-font-weight: 400;
-font-size: 40px;
-letter-spacing: 3px;
-}
+    .titulo p {
+        text-align: center;
+        font-weight: 400;
+        font-size: 40px;
+        letter-spacing: 3px;
+    }
 
-.logo {
-    width: 55px;
-    height: 55px;
-}
+    .logo {
+        width: 55px;
+        height: 55px;
+        margin-top: 45px;
+    }
 
-.subtitulo p {
-font-size: 20px;
-font-family: "Gulzar", sans-serif;
-display: flex;
-margin: 5px;
-}
+    .subtitulo p {
+        font-size: 20px;
+        font-family: "Gulzar", sans-serif;
+        display: flex;
+        text-align: center;
 
-.botao {
-background: #ffffff;   
-color: white;          
-border-radius: 50px;
-font-size: 18px;
-cursor: pointer;
-transition: transform 0.25s ease, box-shadow 0.25s ease;
-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
-width: 250px;
-height: 50px;
-}
+    }
 
-.botao:hover{
-transform: translateY(-6px);
-box-shadow: 0 12px 22px rgba(0, 0, 0, 0.30);
-}
+    .botao {
+        background: #ffffff;
+        color: white;
+        border-radius: 50px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+        width: 250px;
+        height: 50px;
+    }
 
-.botao:active{
-transform: translateY(-2px);
-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
-}
+    .botao:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 12px 22px rgba(0, 0, 0, 0.30);
+    }
+
+    .botao:active {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    }
 
 
-.botao p {
-font-size: 25px;
-font-weight: 400;
-color: #000;
-margin-top: 5px;
-font-family: "geologica", sans-serif;
-margin: 5px 0px 25px 0px;
-}
+    .botao p {
+        font-size: 25px;
+        font-weight: 400;
+        color: #000;
+        margin-top: 5px;
+        font-family: "geologica", sans-serif;
+        margin: 5px 0px 10px 0px;
+    }
 
-.nuvem {
-width: 50px;
-height: 30.5px;
-}
+    .nuvem {
+        width: 50px;
+        height: 30.5px;
+    }
 
-.comofunciona {
-font-size: 25px;
-margin: 30px 0px 20px 0px;
-align-items: center;
-justify-content: center;
-}
+    .comofunciona {
+        font-size: 25px;
+        margin: 30px 0px 15px 0px;
+        align-items: center;
+        justify-content: center;
+    }
 
-.carrossel {
-align-items: center;
-justify-content: center;
-display: flex;
-gap: 55px;
-}
+    .tela1 {
+        width: 10vw;
+        height: 10vh;
+        background-size: 100%;
+        background-image: url(../img/tela1-tabl.jpg);
+    }
+    
+    .tela2 {
+        width: 10vw;
+        height: 10vh;
+        background-size: 100%;
+        background-image: url(../img/tela2-tabl.jpg);
+    }
+    
+    .tela3 {
+        width: 10vw;
+        height: 10vh;
+        background-size: 100%;
+        background-image: url(../img/tela3-tabl.jpg);
+    }
 
-.retangulo-branco{
-background-color: white;
-width: 100vw;
-height: 800px;
-margin-top: 500px;
-}
+    .carrossel {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 30px;
+    }
 
-.retangulo-branco p{
-color: #000;
-display: flex;
-margin-top: 30px;
-margin-left: 30px;
-font-size: 40px;
-font-family: "Gulzar", sans-serif;
-}
+    .carrossel img{
+        width: 50px;
+    }
+    
 
-.descricao p{
-font-size: 20px;
-margin-right: 20px;
-hyphens: auto;
-font-family: "inter", sans-serif;
-margin-top: -30px;
-}
+    .retangulo-branco {
+        background-color: white;
+        width: 100vw;
+        height: 700px;
+        margin-top: 500px;
+    }
 
-.foto-vidal img{
-width: 70px;
-margin-left: 40px;
-margin-top: 40px;
-border-radius: 300px;
-}
+    .retangulo-branco p {
+        color: #000;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 30px;
+        font-size: 40px;
+        font-family: "Gulzar", sans-serif;
+    }
 
-.foto-vidal p{
-font-size: 15px;
-margin-left: 35px;
-margin-top: -5px;
-}
+    .descricao p {
+        font-size: 20px;
+        margin-right: 20px;
+        hyphens: auto;
+        font-family: "inter", sans-serif;
+        margin-top: -30px;
+    }
 
-.foto-rolim img{
-    width: 70px;
-    height: 70px;
-    display: flex;
-    border-radius: 300px;
-    margin-top: -110px;
-    margin-left: 150px;
-}
+    .foto-vidal img {
+        width: 70px;
+        margin-left: 40px;
+        margin-top: 40px;
+        border-radius: 300px;
+    }
 
-.foto-rolim p{
-    font-size: 40px;
-    margin-left: 1780px;
-    margin-top: -5px;
-}
+    .foto-vidal p {
+        font-size: 10px;
+        margin-left: 45px;
+        margin-top: -5px;
+    }
 
+    .foto-rolim img {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        border-radius: 300px;
+        margin-top: -91px;
+        margin-left: 150px;
+    }
+
+    .foto-rolim p {
+        font-size: 10px;
+        margin-left: 150px;
+        margin-top: -5px;
+    }
+
+    .foto-jefferson img {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        border-radius: 300px;
+        margin-top: -95px;
+        margin-left: 270px;
+    }
+    
+    .foto-jefferson p {
+        font-size: 10px;
+        margin-left: 270px;
+        margin-top: 0px;
+    }
+
+    .Gerencie {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    
+    .container {
+        display: flex;
+        gap: 15px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .Visualize p{
+        font-size: 9px;
+        hyphens: auto;
+    }
+
+    .Visualize img{
+        width: 110px;
+        height: 90px;
+    }
+    
+    .Registre p{
+        font-size: 9px;
+        text-align: justify;
+    }
+
+    .Registre img{
+        width: 110px;
+        height: 90px;
+        margin-top: -12px;
+    }
+    
+    .Saiba p{
+        font-size: 8px;
+        hyphens: auto;
+    }
+
+    .Saiba img{
+        width: 110px;
+        height: 90px;
+        margin-top: -12px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .FaleConosco {
+        display: flex;
+        align-items: center;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        gap: 2px;
+    }
+    
+    .foto-vidal2 img {
+        width: 70px;
+        display: flex;
+        border-radius: 300px;
+        margin-left: -60px;
+    }
+    
+    .LinkedinVidal img {
+        width: 30px;
+        height: 20px;
+        transform: translate(-25px, -17px);
+    }
+    
+    .foto-guilherme2 img {
+        width: 70px;
+        height: 70px;
+        border-radius: 300px;
+        transform: translate(40px, 0px);
+    }
+    
+    .LinkedinRolim img {
+        width: 30px;
+        height: 20px;
+        transform: translate(-3px, -17px);
+    }
+    
+    .foto-jefferson2 img {
+        width: 70px;
+        height: 70px;
+        border-radius: 300px;
+        transform: translate(70px, 0px);
+    }
+    
+    .LinkedinJeff img {
+        width: 20px;
+        height: 20px;
+        transform: translate(15px, -17px);
+    }
+    
+    .MarcaRegistrada {
+        color: #000;
+        font-size: 30px;
+        margin-top: -100px;
+    }
+    
+    .foto-vidal2 p{
+        font-size: 10px;
+        margin-left: -55px;
+    }
+
+    .foto-guilherme2 p{
+        font-size: 10px;
+        transform: translate(40px, 0px);
+    }
+
+    .foto-jefferson2 p {
+        font-size: 10px;
+        transform: translate(75px, 0px);
+    }
+    
+    .retangulo h2 {
+        font-size: 30px;
+        color: black;
+        display: flex;
+        justify-content: center;
+        font-family: "inter", sans-serif;
+        font-weight: 500;
+    }
+
+    .retangulo img{
+        width: 35px;
+        height: 35px;
+        margin-top: 3px;
+    }
+
+    .NossosContatos {
+        display: flex;
+        gap: 15px;
+        margin-top: -100px;
+    }
+    
 }
