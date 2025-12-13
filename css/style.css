@@ -441,7 +441,6 @@ main {
 .registre,
 .saiba {
     width: 460px;
-    font-size: 36px;
     align-items: center;
     justify-content: center;
 }
@@ -449,6 +448,7 @@ main {
 .visualize p,
 .registre p,
 .saiba p {
+    font-size: 36px;
     text-align: center;
 }
 
@@ -507,4 +507,130 @@ footer {
 
 .parkmanager {
     padding: 60px 0px 10px 0px;
+}
+
+/* TABLET - iPad Mini */
+@media(max-width: 1024px) {
+    .animacao {
+        display: none;
+    }
+
+    .titulo p {
+        margin-top: 30px;
+        font-size: 95px;
+    }
+
+    .titulo img {
+        margin-top: 27px;
+    }
+
+    .carrossel {
+        gap: 45px;
+    }
+
+    .seta {
+        width: 70px;
+        height: 70px;
+    }
+
+    .tela1 {
+        width: 157px;
+        height: 212px;
+        background-image: url(../img/tela1-tabl.jpg);
+    }
+
+    .tela2 {
+        width: 144px;
+        height: 207px;
+        background-image: url(../img/tela2-tabl.jpg);
+    }
+
+    .tela3 {
+        width: 144px;
+        height: 210px;
+        background-image: url(../img/tela3-tabl.jpg);
+    }
+
+    .retangulo-branco {
+        height: 65vh;
+    }
+
+    .retangulo-branco p {
+        font-size: 40px;
+        margin: 20px;
+    }
+
+    .descricao p {
+        margin: 10px 20px 20px 20px;
+        font-size: 24px;
+    }
+
+    .vidal img,
+    .rolim img,
+    .jefferson img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .vidal p,
+    .rolim p,
+    .jefferson p {
+        font-size: 24px;
+    }
+
+    .gerencie {
+        font-size: 24px;
+        padding: 50px 0px 40px 0px;
+    }
+
+    .telas {
+        height: 133px;
+        width: 187px;
+    }
+
+    .container {
+        height: 20vh;
+    }
+
+    .visualize,
+    .registre,
+    .saiba {
+        width: 209.3px;
+    }
+
+    .visualize p,
+    .registre p,
+    .saiba p {
+        font-size: 15px;
+    }
+
+    .retangulo h2 {
+        font-size: 48px;
+    }
+
+    .retangulo img {
+        width: 56px;
+        height: 56px;
+    }
+
+    .faleconosco {
+        height: 15vh;
+        gap: 10px;
+        padding-left: 60px;
+    }
+
+    .linkedin p,
+    .github p {
+        font-size: 20px;
+    }
+
+    .linkedin img,
+    .github img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .parkmanager p {
+        font-size: 37px;
+    }
 }
