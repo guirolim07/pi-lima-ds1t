@@ -8,247 +8,6 @@ body {
 }
 
 /*FORMATAÇÃO PARA DESKTOP*/
-
-    
-
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-main {
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.titulo {
-    display: flex;
-    gap: 10px;
-}
-
-.titulo p {
-    text-align: center;
-    margin-top: -190px;
-    font-weight: 400;
-    font-size: 128px;
-    letter-spacing: 3px;
-}
-
-.logo {
-    margin-top: -200px;
-}
-
-.subtitulo p {
-    font-size: 50px;
-    font-family: "Gulzar", sans-serif;
-    display: flex;
-    margin: 5px;
-}
-
-.botao {
-    background: #ffffff;
-    color: white;
-    border-radius: 50px;
-    font-size: 18px;
-    cursor: pointer;
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
-    width: 450px;
-    height: 90px;
-
-}
-
-.botao:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 12px 22px rgba(0, 0, 0, 0.30);
-}
-
-.botao:active {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
-}
-
-
-.botao p {
-    font-size: 50px;
-    font-weight: 400;
-    color: #000;
-    margin-top: 20px;
-    font-family: "geologica", sans-serif;
-}
-
-.nuvem {
-    justify-content: end;
-    width: 75px;
-    height: 40.5px;
-}
-
-.comofunciona {
-    font-size: 35px;
-    margin: 65px 0px 20px 0px;
-    align-items: center;
-    justify-content: center;
-}
-
-.carrossel {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    gap: 55px;
-}
-
-.retangulo-branco {
-    background-color: white;
-    width: 100vw;
-    height: 1100px;
-    margin-top: 500px;
-}
-
-.retangulo-branco p {
-    color: #000;
-    display: flex;
-    margin-top: 30px;
-    margin-left: 30px;
-    font-size: 150px;
-    font-family: "Gulzar", sans-serif;
-}
-
-.descricao p {
-    font-size: 45px;
-    margin-left: 35px;
-    text-align: justify;
-    font-family: "inter", sans-serif;
-    margin-top: -30px;
-}
-
-.foto-vidal img {
-    width: 230px;
-    display: flex;
-    margin-top: 100px;
-    margin-left: 500px;
-    border-radius: 300px;
-}
-
-.foto-vidal p {
-    font-size: 40px;
-    margin-left: 490px;
-    margin-top: 5px;
-}
-
-.foto-rolim img {
-    width: 230px;
-    height: 230px;
-    display: flex;
-    border-radius: 300px;
-    margin-top: -280px;
-    margin-left: 1800px;
-}
-
-.foto-rolim p {
-    font-size: 40px;
-    margin-left: 1780px;
-    margin-top: -5px;
-}
-
-.foto-jefferson img {
-    width: 230px;
-    height: 230px;
-    display: flex;
-    border-radius: 300px;
-    margin-top: -320px;
-    margin-left: 3080px;
-}
-
-.foto-jefferson p {
-    font-size: 40px;
-    margin-left: 3055px;
-    margin-top: -5px;
-}
-
-.tela1 {
-    width: 672px;
-    height: 394px;
-    background-size: 100%;
-    background-image: url(../img/tela1-desk.jpg);
-}
-
-.tela2 {
-    width: 672px;
-    height: 394px;
-    background-size: 100%;
-    background-image: url(../img/tela2-desk.jpg);
-}
-
-.tela3 {
-    width: 672px;
-    height: 394px;
-    background-size: 100%;
-    background-image: url(../img/tela3-desk.jpg);
-}
-
-.grupo {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    gap: 50px;
-    margin-top: 300px;
-    margin-left: 200px;
-}
-
-.grupo p {
-    font-size: 60px;
-    justify-content: center;
-}
-
-.Gerencie {
-    font-size: 90px;
-    margin-top: 90px;
-}
-
-.container {
-    display: flex;
-    gap: 450px;
-    margin-top: 300px;
-    margin-bottom: 300px;
-}
-
-.Visualize {
-    font-size: 65px;
-    text-align: justify;
-}
-
-.Registre {
-    font-size: 65px;
-    text-align: justify;
-}
-
-.Saiba {
-    font-size: 63px;
-    text-align: justify;
-}
-
-
-footer {
-    display: flex;
-    flex-direction: column;
-    font-size: 32px;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-}
-
-.sites {
-    display: flex;
-    gap: 10px;
-}
-
-
 .carro1 {
     height: 150px;
     position: absolute;
@@ -461,11 +220,9 @@ footer {
     margin-top: -410px;
 }
 
-
 h1 {
     transform: rotate(180deg);
     transform-origin: left top;
-    /* muda o centro da rotação */
 }
 
 .traco-1 {
@@ -500,799 +257,254 @@ h1 {
     top: 560px;
 }
 
-.telas {
-    display: flex;
-    gap: 30px;
-}
 
-.parte1,
-.parte2,
-.parte3 {
+/* HEADER */
+header {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo {
+    display: flex;
+    gap: 10px;
+}
+
+.titulo p {
+    text-align: center;
+    margin-top: -190px;
+    font-weight: 400;
+    font-size: 128px;
+    letter-spacing: 3px;
+}
+
+.logo {
+    margin-top: -200px;
+}
+
+.subtitulo p {
+    font-size: 50px;
+    font-family: "Gulzar", sans-serif;
+    display: flex;
+    margin: 5px;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.botao {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #ffffff;
+    color: white;
+    border-radius: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    width: 450px;
+    height: 90px;
+}
+
+.botao:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 22px rgba(0, 0, 0, 0.30);
+}
+
+.botao:active {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.botao p {
+    font-size: 50px;
+    font-weight: 400;
+    color: #000;
+    font-family: "Geologica", sans-serif;
+}
+
+.nuvem {
+    width: 75px;
+    height: 40.5px;
+}
+
+.comofunciona {
+    font-size: 35px;
+    margin: 65px 0px 20px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrossel {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 60px;
+    margin-right: 20px;
+    padding-bottom: 170px;
+}
+
+.tela1 {
+    width: 336px;
+    height: 197px;
+    background-size: 100%;
+    background-image: url(../img/tela1-desk.jpg);
+}
+
+.tela2 {
+    width: 328px;
+    height: 197px;
+    background-size: 100%;
+    background-image: url(../img/tela2-desk.jpg);
+}
+
+.tela3 {
+    width: 320px;
+    height: 193px;
+    background-size: 100%;
+    background-image: url(../img/tela3-desk.jpg);
+}
+
+.retangulo-branco {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+.retangulo-branco p {
+    color: #000;
+    display: flex;
+    margin-left: 40px;
+    font-size: 150px;
+    font-family: "Gulzar", sans-serif;
+}
+
+.descricao p {
+    font-size: 45px;
+    margin: -40px 40px 40px 40px;
+    text-align: justify;
+    font-family: "Inter", sans-serif;
 }
 
 .grupo {
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.vidal,
+.rolim,
+.jefferson {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.retangulo h2 {
-    font-size: 70px;
-    color: black;
+.vidal img,
+.rolim img,
+.jefferson img {
+    width: 230px;
+    height: 230px;
     display: flex;
-    justify-content: center;
-    font-family: "inter", sans-serif;
-    font-weight: 500;
+    border-radius: 300px;
 }
 
-.sites h2 {
-    width: 100px;
+.vidal p,
+.rolim p,
+.jefferson p {
+    font-size: 40px;
+}
+
+.gerencie {
+    font-size: 48px;
+    padding: 70px;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
     display: flex;
-    color: black;
+    height: 40vh;
+    gap: 70px;
+}
+
+.visualize,
+.registre,
+.saiba {
+    width: 460px;
+    font-size: 36px;
+    align-items: center;
+    justify-content: center;
+}
+
+.visualize p,
+.registre p,
+.saiba p {
+    text-align: center;
+}
+
+.telas {
+    width: 416px;
+    height: 297px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    color: #000;
 }
 
 .retangulo {
+    padding: 17px 0px 30px 0px;
+    gap: 7px;
     display: flex;
 }
 
-.FaleConosco {
+.retangulo h2 {
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.faleconosco {
+    width: 100vw;
     display: flex;
     align-items: center;
-    gap: 955px;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    justify-content: space-evenly;
 }
 
-.foto-vidal2,
-.foto-guilherme2,
-.foto-jefferson2 {
+.linkedin,
+.github {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    color: #000;
+    gap: 10px;
 }
 
-.foto-vidal2 img {
-    width: 230px;
-    display: flex;
-    border-radius: 300px;
+.linkedin p,
+.github p {
+    font-size: 32px;
 }
 
-.LinkedinVidal img {
-    width: 75px;
-    height: 60px;
-    transform: translate(-120px, -50px);
+.linkedin img,
+.github img {
+    width: 40px;
+    height: 40px;
 }
 
-.foto-guilherme2 img {
-    width: 230px;
-    height: 230px;
-    border-radius: 300px;
-}
-
-.LinkedinRolim img {
-    width: 75px;
-    height: 60px;
-    transform: translate(-120px, -50px);
-}
-
-.foto-jefferson2 img {
-    width: 230px;
-    height: 230px;
-    border-radius: 300px;
-}
-
-.LinkedinJeff img {
-    width: 75px;
-    height: 60px;
-    transform: translate(-170px, -50px);
-}
-
-.MarcaRegistrada {
-    color: #000;
-    font-size: 80px;
-}
-
-.linkedinj img {
-    width: 100px;
-    display: flex;
-    margin-left: -10px;
-    margin-top: -60px;
-}
-
-.NossosContatos {
-    display: flex;
-    gap: 855px;
-    margin-top: -100px;
-}
-
-
-
-
-/*FORMATAÇÃO PARA TABLET - iPad Mini*/
-@media (max-width: 1024px) {
-    body {
-        background-color: #000;
-        height: 100vh;
-        width: 100vw;
-        font-family: "Inter", sans-serif;
-        color: #fff;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .animacao{
-        display: none;
-    }
-    
-    header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    main {
-        display: flex;
-        flex-grow: 1;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .titulo {
-        display: flex;
-        gap: 10px;
-    }
-
-    .titulo p {
-        text-align: center;
-        font-weight: 400;
-        font-size: 85px;
-        letter-spacing: 3px;
-        margin-top: 50px;
-    }
-
-    .logo {
-        width: 100px;
-        height: 100px;
-        margin-top: 55px;
-    }
-
-    .subtitulo p {
-        font-size: 35px;
-        font-family: "Gulzar", sans-serif;
-        display: flex;
-        text-align: center;
-        margin-top: 60px;
-
-    }
-
-    .botao {
-        background: #ffffff;
-        color: white;
-        border-radius: 50px;
-        font-size: 18px;
-        cursor: pointer;
-        transition: transform 0.25s ease, box-shadow 0.25s ease;
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
-        width: 370px;
-        height: 70px;
-    }
-
-    .botao:hover {
-        transform: translateY(-6px);
-        box-shadow: 0 12px 22px rgba(0, 0, 0, 0.30);
-    }
-
-    .botao:active {
-        transform: translateY(-2px);
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
-    }
-
-
-    .botao p {
-        font-size: 35px;
-        font-weight: 400;
-        color: #000;
-        margin-top: 5px;
-        font-family: "geologica", sans-serif;
-        margin: 10px 0px 30px 0px;
-    }
-
-    .nuvem {
-        width: 60px;
-        height: 40.5px;
-    }
-
-    .comofunciona {
-        font-size: 25px;
-        margin: 30px 0px 20px 0px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .tela1 {
-        width: 15vw;
-        height: 15vh;
-        background-size: 100%;
-        background-image: url(../img/tela1-tabl.jpg);
-    }
-    
-    .tela2 {
-        width: 15vw;
-        height: 15vh;
-        background-size: 100%;
-        background-image: url(../img/tela2-tabl.jpg);
-    }
-    
-    .tela3 {
-        width: 15vw;
-        height: 15vh;
-        background-size: 100%;
-        background-image: url(../img/tela3-tabl.jpg);
-    }
-
-    .carrossel {
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        gap: 55px;
-    }
-
-    
-
-    .retangulo-branco {
-        background-color: white;
-        width: 100vw;
-        height: 800px;
-        margin-top: 500px;
-    }
-
-    .retangulo-branco p {
-        color: #000;
-        display: flex;
-        margin-top: 30px;
-        margin-left: 30px;
-        font-size: 40px;
-        font-family: "Gulzar", sans-serif;
-    }
-
-    .descricao p {
-        font-size: 20px;
-        margin-right: 20px;
-        hyphens: auto;
-        font-family: "inter", sans-serif;
-        margin-top: -30px;
-    }
-
-    .foto-vidal img {
-        width: 180px;
-        margin-left: 40px;
-        margin-top: 140px;
-        border-radius: 300px;
-    }
-
-    .foto-vidal p {
-        font-size: 25px;
-        margin-left: 60px;
-        margin-top: -5px;
-    }
-
-    .foto-rolim img {
-        width: 170px;
-        height: 170px;
-        display: flex;
-        border-radius: 300px;
-        margin-top: -235px;
-        margin-left: 310px;
-    }
-
-    .foto-rolim p {
-        font-size: 25px;
-        margin-left: 310px;
-        margin-top: -5px;
-    }
-
-    .foto-jefferson img {
-        width: 170px;
-        height: 170px;
-        display: flex;
-        border-radius: 300px;
-        margin-top: -230px;
-        margin-left: 560px;
-    }
-    
-    .foto-jefferson p {
-        font-size: 25px;
-        margin-left: 565px;
-        margin-top: -8px;
-    }
-
-    .Gerencie {
-        font-size: 30px;
-        margin-top: 20px;
-    }
-    
-    .container {
-        display: flex;
-        gap: 30px;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        margin-left: 15px;
-    }
-    
-    .Visualize p {
-        font-size: 15px;
-        hyphens: auto;
-        transform: translate(0px, -40px);
-    }
-
-    .Visualize img{
-        width: 200px;
-        height: 160px;
-        transform: translate(0px,-12px);  
-    }
-    
-    .Registre p{
-        font-size: 15px;
-        text-align: justify;
-        hyphens: auto;
-        transform: translate(0px, -40px);
-    }
-
-    .Registre img{
-        width: 200px;
-        height: 160px;
-        margin-top: -12px;
-    }
-    
-    .Saiba p{
-        font-size: 15px;
-        hyphens: auto;
-        transform: translate(0px, -40px);
-    }
-
-    .Saiba img{
-        width: 200px;
-        height: 160px;
-        margin-top: -10px;
-    }
-
-    footer {
-        display: flex;
-        flex-direction: column;
-        font-size: 15px;
-        justify-content: center;
-        align-items: center;
-        background-color: rgb(255, 255, 255);
-    }
-
-    .FaleConosco {
-        display: flex;
-        align-items: center;
-        margin-top: 150px;
-        margin-bottom: 150px;
-        gap: 2px;
-    }
-    
-    .foto-vidal2 img {
-        width: 200px;
-        display: flex;
-        border-radius: 300px;
-    }
-    
-    .LinkedinVidal img {
-        width: 40px;
-        height: 30px;
-        transform: translate(-75px,-28px);
-    }
-    
-    .foto-guilherme2 img {
-        width: 190px;
-        height: 190px;
-        border-radius: 300px;
-    }
-    
-    .LinkedinRolim img {
-        width: 40px;
-        height: 30px;
-        transform: translate(-75px,-28px);
-    }
-    
-    .foto-jefferson2 img {
-        width: 190px;
-        height: 190px;
-        border-radius: 300px;
-    }
-    
-    .LinkedinJeff img {
-        width: 35px;
-        height: 35px;
-        transform: translate(-110px,-30px);
-    }
-    
-    .MarcaRegistrada {
-        color: #000;
-        font-size: 40px;
-    }
-    
-    .foto-vidal2 p{
-        font-size: 20px;
-    }
-
-    .foto-guilherme2 p{
-        font-size: 20px;
-    }
-
-    .foto-jefferson2 p {
-        font-size: 20px;
-    }
-    
-    .retangulo h2 {
-        font-size: 50px;
-        color: black;
-        display: flex;
-        justify-content: center;
-        font-family: "inter", sans-serif;
-        font-weight: 500;
-    }
-
-    .retangulo img{
-        width: 55px;
-        height: 55px;
-        margin-top: 3px;
-    }  
-
-    .NossosContatos {
-        display: flex;
-        gap: 75px;
-    }
-}
-
-/*FORMATAÇÃO DO MOBILE - iPhone SE*/
-@media (max-width: 667px) {
-
-    body {
-        background-color: #000;
-        height: 100vh;
-        width: 100vw;
-        font-family: "Inter", sans-serif;
-        color: #fff;
-        align-items: center;
-        justify-content: center;
-    }
-
-    header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    main {
-        display: flex;
-        flex-grow: 1;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .titulo {
-        display: flex;
-        gap: 10px;
-    }
-
-    .titulo p {
-        text-align: center;
-        font-weight: 400;
-        font-size: 40px;
-        letter-spacing: 3px;
-    }
-
-    .logo {
-        width: 55px;
-        height: 55px;
-        margin-top: 45px;
-    }
-
-    .subtitulo p {
-        font-size: 20px;
-        font-family: "Gulzar", sans-serif;
-        display: flex;
-        text-align: center;
-
-    }
-
-    .botao {
-        background: #ffffff;
-        color: white;
-        border-radius: 50px;
-        font-size: 18px;
-        cursor: pointer;
-        transition: transform 0.25s ease, box-shadow 0.25s ease;
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
-        width: 250px;
-        height: 50px;
-    }
-
-    .botao:hover {
-        transform: translateY(-6px);
-        box-shadow: 0 12px 22px rgba(0, 0, 0, 0.30);
-    }
-
-    .botao:active {
-        transform: translateY(-2px);
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
-    }
-
-
-    .botao p {
-        font-size: 25px;
-        font-weight: 400;
-        color: #000;
-        margin-top: 5px;
-        font-family: "geologica", sans-serif;
-        margin: 5px 0px 10px 0px;
-    }
-
-    .nuvem {
-        width: 50px;
-        height: 30.5px;
-    }
-
-    .comofunciona {
-        font-size: 25px;
-        margin: 30px 0px 15px 0px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .tela1 {
-        width: 10vw;
-        height: 10vh;
-        background-size: 100%;
-        background-image: url(../img/tela1-tabl.jpg);
-    }
-    
-    .tela2 {
-        width: 10vw;
-        height: 10vh;
-        background-size: 100%;
-        background-image: url(../img/tela2-tabl.jpg);
-    }
-    
-    .tela3 {
-        width: 10vw;
-        height: 10vh;
-        background-size: 100%;
-        background-image: url(../img/tela3-tabl.jpg);
-    }
-
-    .carrossel {
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        gap: 30px;
-    }
-
-    .carrossel img{
-        width: 50px;
-    }
-    
-
-    .retangulo-branco {
-        background-color: white;
-        width: 100vw;
-        height: 700px;
-        margin-top: 500px;
-    }
-
-    .retangulo-branco p {
-        color: #000;
-        display: flex;
-        margin-top: 30px;
-        margin-left: 30px;
-        font-size: 40px;
-        font-family: "Gulzar", sans-serif;
-    }
-
-    .descricao p {
-        font-size: 20px;
-        margin-right: 20px;
-        hyphens: auto;
-        font-family: "inter", sans-serif;
-        margin-top: -30px;
-    }
-
-    .foto-vidal img {
-        width: 70px;
-        margin-left: 40px;
-        margin-top: 40px;
-        border-radius: 300px;
-    }
-
-    .foto-vidal p {
-        font-size: 10px;
-        margin-left: 45px;
-        margin-top: -5px;
-    }
-
-    .foto-rolim img {
-        width: 70px;
-        height: 70px;
-        display: flex;
-        border-radius: 300px;
-        margin-top: -91px;
-        margin-left: 150px;
-    }
-
-    .foto-rolim p {
-        font-size: 10px;
-        margin-left: 150px;
-        margin-top: -5px;
-    }
-
-    .foto-jefferson img {
-        width: 70px;
-        height: 70px;
-        display: flex;
-        border-radius: 300px;
-        margin-top: -95px;
-        margin-left: 270px;
-    }
-    
-    .foto-jefferson p {
-        font-size: 10px;
-        margin-left: 270px;
-        margin-top: 0px;
-    }
-
-    .Gerencie {
-        font-size: 15px;
-        margin-top: 30px;
-    }
-    
-    .container {
-        display: flex;
-        gap: 15px;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-    
-    .Visualize p{
-        font-size: 9px;
-        hyphens: auto;
-    }
-
-    .Visualize img{
-        width: 110px;
-        height: 90px;
-    }
-    
-    .Registre p{
-        font-size: 9px;
-        text-align: justify;
-    }
-
-    .Registre img{
-        width: 110px;
-        height: 90px;
-        margin-top: -12px;
-    }
-    
-    .Saiba p{
-        font-size: 8px;
-        hyphens: auto;
-    }
-
-    .Saiba img{
-        width: 110px;
-        height: 90px;
-        margin-top: -12px;
-    }
-
-    footer {
-        display: flex;
-        flex-direction: column;
-        font-size: 15px;
-        justify-content: center;
-        align-items: center;
-        background-color: rgb(255, 255, 255);
-    }
-
-    .FaleConosco {
-        display: flex;
-        align-items: center;
-        margin-top: 150px;
-        margin-bottom: 150px;
-        gap: 2px;
-    }
-    
-    .foto-vidal2 img {
-        width: 70px;
-        display: flex;
-        border-radius: 300px;
-        margin-left: -60px;
-    }
-    
-    .LinkedinVidal img {
-        width: 30px;
-        height: 20px;
-        transform: translate(-25px, -17px);
-    }
-    
-    .foto-guilherme2 img {
-        width: 70px;
-        height: 70px;
-        border-radius: 300px;
-        transform: translate(40px, 0px);
-    }
-    
-    .LinkedinRolim img {
-        width: 30px;
-        height: 20px;
-        transform: translate(-3px, -17px);
-    }
-    
-    .foto-jefferson2 img {
-        width: 70px;
-        height: 70px;
-        border-radius: 300px;
-        transform: translate(70px, 0px);
-    }
-    
-    .LinkedinJeff img {
-        width: 20px;
-        height: 20px;
-        transform: translate(15px, -17px);
-    }
-    
-    .MarcaRegistrada {
-        color: #000;
-        font-size: 30px;
-        margin-top: -100px;
-    }
-    
-    .foto-vidal2 p{
-        font-size: 10px;
-        margin-left: -55px;
-    }
-
-    .foto-guilherme2 p{
-        font-size: 10px;
-        transform: translate(40px, 0px);
-    }
-
-    .foto-jefferson2 p {
-        font-size: 10px;
-        transform: translate(75px, 0px);
-    }
-    
-    .retangulo h2 {
-        font-size: 30px;
-        color: black;
-        display: flex;
-        justify-content: center;
-        font-family: "inter", sans-serif;
-        font-weight: 500;
-    }
-
-    .retangulo img{
-        width: 35px;
-        height: 35px;
-        margin-top: 3px;
-    }
-
-    .NossosContatos {
-        display: flex;
-        gap: 15px;
-        margin-top: -100px;
-    }
-    
+.parkmanager {
+    padding: 60px 0px 10px 0px;
 }
